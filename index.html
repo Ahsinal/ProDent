@@ -1,377 +1,411 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css" integrity="sha512-YzwGgFdO1NQw1CZkPoGyRkEnUTxPSbGWXvGiXrWk8IeSqdyci0dEDYdLLjMxq1zCoU0QBa4kHAFiRhUL3z2bow==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-        <title>Backup</title>
-        <link rel="stylesheet" href="#">  
-    </head>
-    <style>
-      body {
-  font-family: 'Montserrat', sans-serif;
-  -webkit-font-smoothing: antialiased;
-}
-    </style>
-    <body>
-        
-     <nav class="navbar navbar-expand-lg ">
-        <div class="container">
-          <a class="navbar-brand" href="index.html"><img src="pics\logo.webp"></a>
-          <div class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="bi bi-arrows-expand"></i>
-          </div>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-                    <li class="nav-item">
-                        <a class="nav-link link-dark active " href="index.html"><i class="bi bi-house"></i>Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link link-dark active"  href="aboutus.html"><i class="bi bi-book"></i> About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link link-dark " href="services.html"><i class="bi bi-heart-pulse"></i> Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link link-dark " href="pricing.html"><i class="bi bi-credit-card"></i> Pricings</a>
-                    </li>
-                    <li class="nav-item">
-                         <a class="nav-link link-dark " href="#"><i class="bi bi-question-octagon"></i> FAQ</a>
-                    </li>
-                    <li class="nav-item">
-                       <a class="nav-link link-dark" href="#"><i class="bi bi-gear-wide-connected"></i> Our Associates</a>
-                    </li>
-                    </ul>
-            </div>
-        </div>
-      </nav>
-         
 
-            <!--pageinfo-->
-            <header>
-            <div id="pageinfo" class="" style="background-color: #eff2f4;">
-                <hr>  
-                <div class="container pb-3 mt-5">
-                    <div class="row" >
-                        <div class="col-lg-3 col-md-6">
-                            <div class="row">
-                              <div class="col-auto" id="logo"><img src="pics\location.webp" alt="Location"></div>
-                              <div class="col-lg-8 " id="content">
-                                <a href="contact.html" class="link-dark"><h6>Location</h6></a>
-                                <p class="text-secondary"> Denver, USA</p>    
-                              </div>
-                            </div>
-                        </div>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css"
+    integrity="sha512-YzwGgFdO1NQw1CZkPoGyRkEnUTxPSbGWXvGiXrWk8IeSqdyci0dEDYdLLjMxq1zCoU0QBa4kHAFiRhUL3z2bow=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Backup</title>
+  <link rel="stylesheet" href="#">
+</head>
+<style>
+  body {
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+</style>
 
-                        <div class="col-lg-3 col-md-6">
-                            <div class="row">
-                              <div class="col-auto" id="logo"><img src="pics\clock.webp" alt="Location"></div>
-                              <div class="col-lg-8 " id="content">
-                                <a href="#" class="link-dark"><h6>Opening Hours</h6></a>
-                                <p class="text-secondary">Mon - Sat</p>                               
-                              </div>
-                            </div>
-                        </div>
+<body>
 
-                      <div class="col-lg-3 col-md-6">
-                            <div class="row">
-                              <div class="col-auto" id="logo"><img src="pics\mobile.webp" alt="Location"></div>
-                              <div class="col-lg-8 " id="content">
-                                <a href="#" class="link-dark"><h6> Contact us +885 332 1568</h6></a>
-                                <p class="text-secondary">Call us now!</p>  
-                              </div>
-                            </div>
-                        </div>
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="pics\logo.webp"></a>
+      <div class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-arrows-expand"></i>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+          <li class="nav-item">
+            <a class="nav-link link-dark active " href="index.html"><i class="bi bi-house"></i>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-dark active" href="aboutus.html"><i class="bi bi-book"></i> About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-dark " href="services.html"><i class="bi bi-heart-pulse"></i> Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-dark " href="pricing.html"><i class="bi bi-credit-card"></i> Pricings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-dark " href="#"><i class="bi bi-question-octagon"></i> FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-dark" href="#"><i class="bi bi-gear-wide-connected"></i> Our Associates</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-                        <div class="col-lg-3 col-md-6">
-                          <div class="row">
-                            <div class="col-auto" id="logo"><img src="pics\calander.webp" alt="Location"></div>
-                            <div class="col-lg-8 " id="content">
-                              <a href="#" class="link-dark"><h6>Dental Street 20199</h6></a>
-                              <p class="text-secondary"> Denver, USA</p>    
-                            </div>
-                          </div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-        </header>
 
-        <section class="carasoule1">
-          <div class="container-fluid" style="background-color:#04abde;">
-            <div class="content-1 " data-setbg="pics\dental.jpg" style="background-image: url('dents.jpg'); background-repeat: no-repeat; background-size: 100% 100%;">
-               <div class="container py-5 px-5">
-                    <div class="row ">
-                        <div class="col-7"> 
-                            <br><br><br><br> <br>                   
-                            <h1 class="text-light display-2 animate__animated animate__heartBeat"  >Best Dentist.</h1>
-                            <p class="text-light animate__animated ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
-                            <br><br>
-                            <a href="#"><button type="button" class="btn btn-success btn-lg"><h3>Contact Us</h3></button></a>
-                            <br><br><br><br> <br>  
-                        </div>
-                    </div>
-                </div>  
-            </div>          
-        </div>
-        </section>
-
-        <!--banner1-->
-        <section class="banner" style="background-color:#7acf38">
-          <div class="container  py-5"  >
-            <div class="row ">
-              <div class="col-lg-7  col-sm-12 text-light ">
-                <h4>Schedule your appointment for a free consultation.</h4>
-                <p style="font-size: 12px;" >*Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus.</p>
-              </div>
-              <div class="col-lg-4 col-sm-12 ">
-                <a href="#"><button type="button" class="btn btn-success btn-lg btn-light link-primary  text-center" ><h5>Read More</h5></a>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!--about-->
-        <section class="about border border-2 border-info">
-          <div class="container my-5">
+  <!--pageinfo-->
+  <header>
+    <div id="pageinfo" class="" style="background-color: #eff2f4;">
+      <hr>
+      <div class="container pb-3 mt-5">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
             <div class="row">
-              <div class="col-lg-5 my-5">
-                <img src="pics\about.webp" alt="aboutpic" class="img-fluid">
-              </div>
-
-              <div class="col-lg-7">
-                <h2 class="px-2 fw-bold py-5">We Care About Your teeth</h2>
-                <p class="text-secondary" style="font-family:montserrat ; font-size: 14px;" >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper venenatis turpis eget suscipit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec eu nulla sollicitudin, 
-                  vestibulum sapien nec, dictum dolor. Morbi non penatibus et magnis volutpat magna.
-                </p>
-                <img src="pics\award.webp" alt="awards" class="img-fluid">
+              <div class="col-auto" id="logo"><img src="pics\location.webp" alt="Location"></div>
+              <div class="col-lg-8 " id="content">
+                <a href="contact.html" class="link-dark">
+                  <h6>Location</h6>
+                </a>
+                <p class="text-secondary"> Denver, USA</p>
               </div>
             </div>
           </div>
-        </section>
 
-        <!--bg2-->
-        <section class="content-2 " style=" background-color:#37d98dc9;  background-repeat: no-repeat; background-size: 100% 100%;">
-          <div class="container" >
-              <div class="row py-5">
-                  <div class="col-md-3 col-sm-6 py-5 px-5">
-                      <h1><img src="pics\001-x-ray.png"></h1>
-                      <h1 class="text-light">531</h1>
-                      <h5 class="text-light">X-rays</h5>
-                  </div>  
-                  
-                  <div class="col-md-3 col-sm-6 py-5 px-5">
-                      <h1><img src="pics\002-brush-teeth.png"></h1>
-                      <h1 class="text-light">14K</h1>
-                      <h5 class="text-light">Tooth Brushes</h5>
-                  </div>  
-
-                  <div class="col-md-3 col-sm-6 py-5 px-5">
-                      <h1><img src="pics\004-tooth-extraction.png"></h1>
-                      <h1 class="text-light">678</h1>
-                      <h5 class="text-light">Extractions</h5>
-                  </div>  
-
-                  <div class="col-md-3 col-sm-6 py-5 px-5">
-                      <h1><img src="pics\003-healthy-tooth.png"></h1>
-                      <h1 class="text-light">2134</h1>
-                      <h5 class="text-light">Happy Patients</h5>
-                  </div>  
-              </div>          
-          </div>
-      </section>
-      
-      <!--services-->
-      <section class="services" style="background-color: #eff2f4;">
-        <div class="container py-5">
-            <div class="section-title text-center py-5 mb-5 text-success ">
-                <h1>Our Services</h1>
-            </div>
-
+          <div class="col-lg-3 col-md-6">
             <div class="row">
-                <div class="col-lg-4 col-md-6">
-                   <div class="row">
-                     <div class="col-3"><img src="pics\005-bridge.png" class="img-rounded">
-                     </div>
-                     <div class="col-9">
-                        <h4>Crowns Bridges</h4>
-                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sem per venenatis turpis.</p>
-                     </div>                  
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="row">
-                      <div class="col-3"><img src="pics\006-dental-implant.png">
-                      </div>
-                      <div class="col-9">
-                         <h4>Implants</h4>
-                         <p class="text-secondary">Phasellus vehicula tempus orci vel consequat. Nullam lorem sem, viverra a rutrum sed.</p>
-                      </div>                  
-                     </div>
-                 </div>
-
-                 <div class="col-lg-4 col-md-6">
-                    <div class="row">
-                      <div class="col-3"><img src="pics\003-healthy-tooth.png">
-                      </div>
-                      <div class="col-9">
-                         <h4>Teeth Whitening</h4>
-                         <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sem per venenatis turpis.</p>
-                      </div>                  
-                     </div>
-                 </div>
+              <div class="col-auto" id="logo"><img src="pics\clock.webp" alt="Location"></div>
+              <div class="col-lg-8 " id="content">
+                <a href="#" class="link-dark">
+                  <h6>Opening Hours</h6>
+                </a>
+                <p class="text-secondary">Mon - Sat</p>
+              </div>
             </div>
-        <!---------------------------------------->
-            <div class="row pt-5">
-                <div class="col-lg-4 col-md-6">
-                   <div class="row">
-                     <div class="col-3"><img src="pics\008-root-canal.png">
-                     </div>
-                     <div class="col-9">
-                        <h4>Root Canals</h4>
-                        <p class="text-secondary">Phasellus vehicula tempus orci vel consequat. Nullam lorem sem, viverra a rutrum sed.</p>
-                     </div>                  
-                    </div>
-                </div>
+          </div>
 
-                <div class="col-lg-4 col-md-6">
-                    <div class="row">
-                      <div class="col-3"><img src="pics\009-submerge.png">
-                      </div>
-                      <div class="col-9">
-                         <h4>Wisdom Teeths</h4>
-                         <p class="text-secondary">Phasellus vehicula tempus orci vel consequat. Nullam lorem sem, viverra a rutrum sed.</p>
-                      </div>                  
-                     </div>
-                 </div>
-
-                 <div class="col-lg-4 col-md-6">
-                    <div class="row">
-                      <div class="col-3"><img src="pics\010-braces.png">
-                      </div>
-                      <div class="col-9">
-                         <h4>Braces</h4>
-                         <p class="text-secondary">Nullam lorem sem, viverra a rutru m sed, gravida mattis magna. Suspendisse vitae commodo.</p>
-                      </div>                  
-                     </div>
-                 </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="row">
+              <div class="col-auto" id="logo"><img src="pics\mobile.webp" alt="Location"></div>
+              <div class="col-lg-8 " id="content">
+                <a href="#" class="link-dark">
+                  <h6> Contact us +885 332 1568</h6>
+                </a>
+                <p class="text-secondary">Call us now!</p>
+              </div>
             </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="row">
+              <div class="col-auto" id="logo"><img src="pics\calander.webp" alt="Location"></div>
+              <div class="col-lg-8 " id="content">
+                <a href="#" class="link-dark">
+                  <h6>Dental Street 20199</h6>
+                </a>
+                <p class="text-secondary"> Denver, USA</p>
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </header>
 
-      <!--picture gallary-->
-      <section class="gallery">
-        <div class="container-fluid">
+  <section class="carasoule1">
+    <div class="container-fluid" style="background-color:#04abde;">
+      <div class="content-1 " data-setbg="pics\dental.jpg"
+        style="background-image: url('dents.jpg'); background-repeat: no-repeat; background-size: 100% 100%;">
+        <div class="container py-5 px-5">
+          <div class="row ">
+            <div class="col-7">
+              <br><br><br><br> <br>
+              <h1 class="text-light display-2 animate__animated animate__heartBeat">Best Dentist.</h1>
+              <p class="text-light animate__animated ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse
+                cursus faucibus finibus.</p>
+              <br><br>
+              <a href="#"><button type="button" class="btn btn-success btn-lg">
+                  <h3>Contact Us</h3>
+                </button></a>
+              <br><br><br><br> <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--banner1-->
+  <section class="banner" style="background-color:#7acf38">
+    <div class="container  py-5">
+      <div class="row ">
+        <div class="col-lg-7  col-sm-12 text-light ">
+          <h4>Schedule your appointment for a free consultation.</h4>
+          <p style="font-size: 12px;">*Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem
+            maximus.</p>
+        </div>
+        <div class="col-lg-4 col-sm-12 ">
+          <a href="#"><button type="button" class="btn btn-success btn-lg btn-light link-primary  text-center">
+              <h5>Read More</h5></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--about-->
+  <section class="about border border-2 border-info">
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-lg-5 my-5">
+          <img src="pics\about.webp" alt="aboutpic" class="img-fluid">
+        </div>
+
+        <div class="col-lg-7">
+          <h2 class="px-2 fw-bold py-5">We Care About Your teeth</h2>
+          <p class="text-secondary" style="font-family:montserrat ; font-size: 14px;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper venenatis turpis eget suscipit. Orci
+            varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec eu nulla
+            sollicitudin,
+            vestibulum sapien nec, dictum dolor. Morbi non penatibus et magnis volutpat magna.
+          </p>
+          <img src="pics\award.webp" alt="awards" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--bg2-->
+  <section class="content-2 "
+    style=" background-color:#37d98dc9;  background-repeat: no-repeat; background-size: 100% 100%;">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-md-3 col-sm-6 py-5 px-5">
+          <h1><img src="pics/001-x-ray.png"></h1>
+          <h1 class="text-light">531</h1>
+          <h5 class="text-light">X-rays</h5>
+        </div>
+
+        <div class="col-md-3 col-sm-6 py-5 px-5">
+          <h1><img src="pics\002-brush-teeth.png"></h1>
+          <h1 class="text-light">14K</h1>
+          <h5 class="text-light">Tooth Brushes</h5>
+        </div>
+
+        <div class="col-md-3 col-sm-6 py-5 px-5">
+          <h1><img src="pics\004-tooth-extraction.png"></h1>
+          <h1 class="text-light">678</h1>
+          <h5 class="text-light">Extractions</h5>
+        </div>
+
+        <div class="col-md-3 col-sm-6 py-5 px-5">
+          <h1><img src="pics\003-healthy-tooth.png"></h1>
+          <h1 class="text-light">2134</h1>
+          <h5 class="text-light">Happy Patients</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--services-->
+  <section class="services" style="background-color: #eff2f4;">
+    <div class="container py-5">
+      <div class="section-title text-center py-5 mb-5 text-success ">
+        <h1>Our Services</h1>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
           <div class="row">
-            <div class="col-lg-3 col-sm-6 p-0 border border-4 border-light">
-              <img src="pics\gallery1.webp"class="img-fluid">
+            <div class="col-3"><img src="pics\005-bridge.png" class="img-rounded">
             </div>
-
-            <div class="col-lg-3 col-sm-6 p-0 border border-4 border-light">
-              <img src="pics\about.webp"class="img-fluid" style="height: 100%;">
+            <div class="col-9">
+              <h4>Crowns Bridges</h4>
+              <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sem per venenatis
+                turpis.</p>
             </div>
-
-            <div class="col-lg-3 col-sm-6 p-0 border border-4 border-light">
-              <img src="pics\gallery3.webp"class="img-fluid" style="width:auto;">
-            </div>
-
-            <div class="col-lg-3 col-sm-6 p-0 border border-4 border-light">
-              <img src="pics\gallery4.webp"class="img-fluid">
-            </div>
-          </div>         
+          </div>
         </div>
-      </section>
 
-      <!--our teams-->
-      <section class="ourteams">
-        <div class="container">
-            <div class="ourteam-title text-center my-5 ">
-                <h2 class="display-5 fw-bold" style="color:#26a07c">Our Teams</h2>
+        <div class="col-lg-4 col-md-6">
+          <div class="row">
+            <div class="col-3"><img src="pics\006-dental-implant.png">
             </div>
-
-            <div class="row py-5">
-                <div class="col-lg-4  col-xs-12">
-                    <div class="card border-1 border-info">
-                        <img src="pics\dentist1.jpg " class="card-img-top" alt="Dentist1">
-                        <div class="card-body">
-                            <h3>Dr Ashin Sharma</h3>
-                            <p><i class="bi bi-phone"></i> 9845067890</p>
-                            <p><i class="bi bi-envelope"></i> Ashin@email.com</p>
-                            <p><i class="bi bi-facebook"></i>  Ashin Sharma</p>
-                        </div>
-                    </div>
-                </div>  
-
-                <div class="col-lg-4  col-xs-12">
-                    <div class="card border-1 border-info">
-                        <img src="pics\dentist2.jpg " class="card-img-top" alt="dentist 2">
-                        <div class="card-body">
-                            <h3>Dr Ananta Poudel</h3>
-                            <p><i class="bi bi-phone"></i> 9845067890</p>
-                            <p><i class="bi bi-envelope"></i> Poudelanant22@email.com</p>
-                            <p><i class="bi bi-facebook"></i>  Ananta poudel</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4  col-xs-12">
-                    <div class="card border-1 border-info" style="height:100%;">
-                        <img src="pics\dentist3.webp" class="card-img-top" alt="dentist-3" style="height:100%;">
-                        <div class="card-body">
-                            <h3>Dr Sherlin Adhikari </h3>
-                            <p><i class="bi bi-phone"></i> 9845067890</p>
-                            <p><i class="bi bi-envelope"></i> Sherlin99@email.com</p>
-                            <p><i class="bi bi-facebook"></i>  Sherlin Adhikari</p>
-                        </div>
-                    </div>
-                </div>
-            </div>                                      
+            <div class="col-9">
+              <h4>Implants</h4>
+              <p class="text-secondary">Phasellus vehicula tempus orci vel consequat. Nullam lorem sem, viverra a rutrum
+                sed.</p>
+            </div>
+          </div>
         </div>
-    </section>
 
-    <!--footer-->
-    <section class="footer" style="background-color: #303958; ">
-      <footer class="footer" >
-        <div class="footer1" style="padding:90px;">
-         <div class="container-fluid">
-          <div class="row" style=" column-count:auto; column-gap: 100px;">              
+        <div class="col-lg-4 col-md-6">
+          <div class="row">
+            <div class="col-3"><img src="pics\003-healthy-tooth.png">
+            </div>
+            <div class="col-9">
+              <h4>Teeth Whitening</h4>
+              <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sem per venenatis
+                turpis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---------------------------------------->
+      <div class="row pt-5">
+        <div class="col-lg-4 col-md-6">
+          <div class="row">
+            <div class="col-3"><img src="pics\008-root-canal.png">
+            </div>
+            <div class="col-9">
+              <h4>Root Canals</h4>
+              <p class="text-secondary">Phasellus vehicula tempus orci vel consequat. Nullam lorem sem, viverra a rutrum
+                sed.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="row">
+            <div class="col-3"><img src="pics\009-submerge.png">
+            </div>
+            <div class="col-9">
+              <h4>Wisdom Teeths</h4>
+              <p class="text-secondary">Phasellus vehicula tempus orci vel consequat. Nullam lorem sem, viverra a rutrum
+                sed.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="row">
+            <div class="col-3"><img src="pics\010-braces.png">
+            </div>
+            <div class="col-9">
+              <h4>Braces</h4>
+              <p class="text-secondary">Nullam lorem sem, viverra a rutru m sed, gravida mattis magna. Suspendisse vitae
+                commodo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--picture gallary-->
+  <section class="gallery">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 p-0 border border-4 border-light">
+          <img src="pics\gallery1.webp" class="img-fluid">
+        </div>
+
+        <div class="col-lg-3 col-sm-6 p-0 border border-4 border-light">
+          <img src="pics\about.webp" class="img-fluid" style="height: 100%;">
+        </div>
+
+        <div class="col-lg-3 col-sm-6 p-0 border border-4 border-light">
+          <img src="pics\gallery3.webp" class="img-fluid" style="width:auto;">
+        </div>
+
+        <div class="col-lg-3 col-sm-6 p-0 border border-4 border-light">
+          <img src="pics\gallery4.webp" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--our teams-->
+  <section class="ourteams">
+    <div class="container">
+      <div class="ourteam-title text-center my-5 ">
+        <h2 class="display-5 fw-bold" style="color:#26a07c">Our Teams</h2>
+      </div>
+
+      <div class="row py-5">
+        <div class="col-lg-4  col-xs-12">
+          <div class="card border-1 border-info">
+            <img src="pics\dentist1.jpg " class="card-img-top" alt="Dentist1">
+            <div class="card-body">
+              <h3>Dr Ashin Sharma</h3>
+              <p><i class="bi bi-phone"></i> 9845067890</p>
+              <p><i class="bi bi-envelope"></i> Ashin@email.com</p>
+              <p><i class="bi bi-facebook"></i> Ashin Sharma</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4  col-xs-12">
+          <div class="card border-1 border-info">
+            <img src="pics\dentist2.jpg " class="card-img-top" alt="dentist 2">
+            <div class="card-body">
+              <h3>Dr Ananta Poudel</h3>
+              <p><i class="bi bi-phone"></i> 9845067890</p>
+              <p><i class="bi bi-envelope"></i> Poudelanant22@email.com</p>
+              <p><i class="bi bi-facebook"></i> Ananta poudel</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4  col-xs-12">
+          <div class="card border-1 border-info" style="height:100%;">
+            <img src="pics\dentist3.webp" class="card-img-top" alt="dentist-3" style="height:100%;">
+            <div class="card-body">
+              <h3>Dr Sherlin Adhikari </h3>
+              <p><i class="bi bi-phone"></i> 9845067890</p>
+              <p><i class="bi bi-envelope"></i> Sherlin99@email.com</p>
+              <p><i class="bi bi-facebook"></i> Sherlin Adhikari</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--footer-->
+  <section class="footer" style="background-color: #303958; ">
+    <footer class="footer">
+      <div class="footer1" style="padding:90px;">
+        <div class="container-fluid">
+          <div class="row" style=" column-count:auto; column-gap: 100px;">
             <div class="col-lg-3 col-md-6">
-              <a  href="#"><img src="pics\logo.webp"></a><br><br>
-                <p><a href="#" class="link-light">Home</a></p>
-                <p><a href="#" class="link-light">About Us</a></p>
-                <p><a href="#" class="link-light">Services</a></p>
-                <p><a href="#" class="link-light">Pricing</a></p>
-                <p><a href="#" class="link-light">FAQ</a></p>
-                <p><a href="#" class="link-light">Our Associates</a></p>
-                
-                <table >
-                  <tr >
-                    <th scope="col" style="padding-right: 20px;"><a href="https://www.tiktok.com/en/"><i class="bi bi-tiktok link-light"></i></a></th>
-                    <th scope="col"style="padding-right: 20px;"><a href="https://twitter.com/?lang=en"><i class="bi bi-twitter link-light"></i></a></th>
-                    <th scope="col"style="padding-right: 20px;"><a href="https://www.instagram.com/"><i class="bi bi-instagram link-light"></i></a></th>
-                    <th scope="col"><a href="https://www.facebook.com/"><i class="bi bi-facebook link-light"></i></a></th>
-                  </tr>
-                </table>     
+              <a href="#"><img src="pics\logo.webp"></a><br><br>
+              <p><a href="#" class="link-light">Home</a></p>
+              <p><a href="#" class="link-light">About Us</a></p>
+              <p><a href="#" class="link-light">Services</a></p>
+              <p><a href="#" class="link-light">Pricing</a></p>
+              <p><a href="#" class="link-light">FAQ</a></p>
+              <p><a href="#" class="link-light">Our Associates</a></p>
+
+              <table>
+                <tr>
+                  <th scope="col" style="padding-right: 20px;"><a href="https://www.tiktok.com/en/"><i
+                        class="bi bi-tiktok link-light"></i></a></th>
+                  <th scope="col" style="padding-right: 20px;"><a href="https://twitter.com/?lang=en"><i
+                        class="bi bi-twitter link-light"></i></a></th>
+                  <th scope="col" style="padding-right: 20px;"><a href="https://www.instagram.com/"><i
+                        class="bi bi-instagram link-light"></i></a></th>
+                  <th scope="col"><a href="https://www.facebook.com/"><i class="bi bi-facebook link-light"></i></a></th>
+                </tr>
+              </table>
             </div>
 
-            <div class="col-lg-2 col-md-6 text-light ">  
+            <div class="col-lg-2 col-md-6 text-light ">
               <h5 style="color:white">Our Services</h5><br>
-                <p>Dental Implants</p>
-                <p>Braces</p>
-                <p>Wisdom Theeth</p>
-                <p>Porcelain Veneers</p>
-                <p>Teeth Whitening</p>
-                <p>Dental Bridges</p>   
+              <p>Dental Implants</p>
+              <p>Braces</p>
+              <p>Wisdom Theeth</p>
+              <p>Porcelain Veneers</p>
+              <p>Teeth Whitening</p>
+              <p>Dental Bridges</p>
             </div>
 
-            <div class="col-lg-4  col-md-12 border border-4 border-success"> 
+            <div class="col-lg-4  col-md-12 border border-4 border-success">
               <div class="title text-light fw-bold pb-3">
                 Opening Hours
               </div>
@@ -410,20 +444,23 @@
                 </table>
               </div>
             </div>
-                     
-          </div>   
+
+          </div>
         </div>
       </div>
 
-        <hr>              
-        <div class="row ">             
-         <div class="col-auto">
-             <p style="color:white;"> © 2022 All rights reserved</p>
-         </div>
-      </footer>
-    </section>
+      <hr>
+      <div class="row ">
+        <div class="col-auto">
+          <p style="color:white;"> © 2022 All rights reserved</p>
+        </div>
+    </footer>
+  </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
